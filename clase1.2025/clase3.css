@@ -1,0 +1,11 @@
+/* estilos.css */
+.nav {
+    margin-bottom: 20px;
+}
+.nav-link {
+    padding: 10px;
+    cursor: pointer;
+}
+.seccion-noticias {
+    display: none;
+}

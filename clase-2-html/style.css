@@ -1,0 +1,36 @@
+.flex-parent{
+    display: flex;
+    height: 50vh;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex-parent .flex-child,
+.flex-child-2{
+    flex-basis: 15%;
+}
+
+.flex-child {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(172, 10, 10);
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.flex-child-2{
+    height: 150px;
+    background-color: violet;
+    width: 100px;
+}
+
+.orden-2 {
+    order: 2;
+}
+
+.align-self {
+    
+}

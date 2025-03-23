@@ -1,0 +1,31 @@
+:root{
+    --size: 180px;
+    --separation:calc(var(--size) + 20px);
+}
+
+.box{
+   position: relative;
+    background-color: green;
+    margin: var(--size) auto;
+}
+
+.box, .box::before, .box::after{
+   display: block;
+   width: var(--size);
+   height: var(--size);
+   border-radius: 50%;
+}
+
+.box::before, .box::after{
+   content: "";
+   position: absolute;
+}
+.box::before{
+    left: var(--separation);
+    background-color: red;
+}
+
+.box::after{
+   background-color: blue;
+   right: var(--separation);
+}

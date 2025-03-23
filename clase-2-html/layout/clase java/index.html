@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button onclick="saludar()">¡Click me!</button>
+
+
+    <button id="contador"> Click +1</button>
+    <p> Clicks realizados: <span id="numero">0</span></p>
+
+<!--como cambiar el color-->
+    <h2> Seleccion un color para cambiar</h2>
+    <input id="colorSelector" type="color">
+    
+<!--lista dinamica-->
+
+<form id="formulario">
+    <input type="text" id="item" placeholder="Añade un elemento">
+    <button type="submit">Añadir al listado</button>
+</form>
+
+<ul id="lista">
+    <li></li>
+</ul>
+
+
+    <script>
+        function saludar() {
+            console.log("Hola!!")
+        }
+
+        
+    </script>
+
+    <script src="./index.js"></script>
+</body>
+</html>

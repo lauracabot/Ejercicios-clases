@@ -1,0 +1,16 @@
+div.bloque1{
+    width: 300px;
+    margin: 0 auto;
+    border: solid 4px blue;
+    background-color: rgb(255, 0, 0);
+}
+div.bloque2{
+    width: auto;
+    border: 3px solid rgb(27, 26, 26);
+}
+div.bloque3{
+    width: auto;
+    border: 3px solid red;
+    margin: 0 auto;
+    background-color: blueviolet;
+}

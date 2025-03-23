@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://th.bing.com/th/id/OIP.2VElCKfO2zFnisWVdHfEXQHaHa?rs=1&pid=ImgDetMain);
+}
+
+
+body article.art-mapache img {
+    width: 400px;
+}
+
+.img-big {
+    width: 800px;
+}
+
+article {
+    border: 3px solid mediumpurple;
+    margin: 5px;
+    background-color: azure;
+}
+
+#texto-1{
+    font-weight: bold;
+    font-size: 15;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(32, 116, 211);
+}
+
+.p2 {
+    background-color: blueviolet;
+}

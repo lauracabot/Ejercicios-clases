@@ -1,0 +1,145 @@
+body{
+    width: 800px;
+}
+.section-encabezado{
+    display: flex;
+    height: 100px;
+    background-color: gray;
+    width:  100%;
+    padding: 10px 15px;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: black solid;
+    align-items: center
+}
+.section-encabezado > div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-encabezado > div:nth-child(2){
+    width: 70%;
+}
+
+.div-logo, 
+.div-menu-1,
+ .div-menu-2{
+    color: white;
+    border: solid 3px black;
+}
+.div-logo{
+    background-color: blue;
+    width: 3vp;
+}
+
+
+.div-menu-1{
+    background-color: green;
+    align-self: self-end;
+    width: 60%;
+
+
+}
+.div-menu-2{
+    background-color: brown;
+    max-width: 60vw;
+    align-self: self-end;
+    width: 100%;
+
+}
+.section-3divs,
+.section-2divs {
+    display: flex;
+    gap: 18px;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.section-3divs div,
+.section-2divs div {
+    width: 32%;
+    border: solid black;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.section-3divs {
+    div {
+        &:nth-child(1){
+            background-color: aquamarine;
+        }
+        &:nth-child(2){
+            background-color: brown;
+        }
+        &:nth-child(3){
+            background-color:blueviolet;
+        }
+    }
+}
+.section-2divs :first-child{
+    width: calc(32% * 2 + 18px);
+}
+
+.section-2divs {
+    margin: 10px;
+}
+.section-2divs {
+    div {
+        &:nth-child(1){
+            background-color: rgb(32, 32, 99);
+        }
+        &:nth-child(2){
+            background-color: green;
+        }
+    }
+
+}
+
+.section-footer{
+    margin-top: 2px;
+    display: flex;
+    min-height: 70px;
+    background-color: aqua;
+    border:black solid ;
+    border-radius: 8px;
+    flex-direction: column;
+
+}
+.section-footer .div-elemento {
+    align-self: end;
+    border: solid black;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    color: beige;
+    text-align: center;
+    line-height: 8px;
+    margin: 10px;
+
+}
+
+.div-ejemplo-1 > p {
+    color: red;
+}
+p + a{
+    color: blue;
+    font-size: 40px;
+
+}
+.parrafo-enlace ~ a{
+    color: black;
+}
+ul li::before {
+    content: "🚩";
+    cursor: pointer;
+}
+ul li::after{
+    content: "🏎";
+}
+
+input:disabled, 
+button:disabled {
+    background-color: red;
+    color: linen;
+    opacity: 1;
+    cursor: not-allowed;
+}

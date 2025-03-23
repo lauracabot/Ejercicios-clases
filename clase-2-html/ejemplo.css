@@ -1,0 +1,6 @@
+.my-box{
+    width: 500px;
+    height: 500px;
+    border:solid 4px black;
+    background-color: bisque;
+}
